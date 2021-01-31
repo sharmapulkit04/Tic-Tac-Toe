@@ -1,0 +1,57 @@
+.game-title{
+    text-align:center;
+
+    font-family: "Times New Roman", Times, serif;
+    font-size: 300%;
+    padding:20px;
+
+}
+
+#description{
+    text-align:center;
+    font-size:150%;
+    padding:10px;
+
+
+}
+
+.game-container{
+    display: grid;
+    height: 300px;
+    width: 300px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: repeat(3,100px);
+    background-color: black;
+    grid-gap:1px;
+    margin:auto;
+
+ /*   grid-row: auto rows 100px;*/
+}
+
+.cell{
+    background-color: white;
+    position: relative;
+
+}
+
+.cell>p{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+  
+}
+
+#game-status{
+    padding:10px;
+    text-align:center;
+}
+
+#game-restart{
+    padding:10x;
+    display: table;
+    margin:auto;
+    
+}
